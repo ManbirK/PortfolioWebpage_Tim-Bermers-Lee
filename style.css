@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+
+.profile{
+    border-radius: 50%;
+    width:200px;
+    height: 300px;
+}
+
+#welcome{
+    width: 100%;
+    display: table;
+    z-index: 9;
+    background: linear-gradient(rgb(157, 15, 209),rgb(99, 23, 198),rgb(28, 24, 234),rgb(37, 243, 51),rgb(216, 213, 25),rgb(228, 134, 26),rgb(215, 23, 23));
+}
+#bio{
+    font-size: 23px;
+    margin:10px auto;
+}
+.line{
+    width: 90px;
+    height: 5px;
+    background-color: rgb(21, 174, 220);
+    margin: 5px auto;
+  
+}
+#name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    z-index: 10;
+    right:130px;
+}
+.links{
+    color:white ;
+    float: left; 
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size:15px;
+}
